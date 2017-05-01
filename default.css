@@ -1,0 +1,258 @@
+@font-face {
+    font-family: 'SFUITextLight';
+    src: url('./fonts/SFUIText-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SFUITextMedium';
+    src: url('./fonts/SFUIText-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SFUITextRegular';
+    src: url('./fonts/SFUIText-Regular.ttf') format('truetype');
+}
+
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 800px;
+}
+
+nav {
+    position: relative;
+    width: auto;
+}
+
+#glo-logo {
+    height: 54px;
+}
+
+#nav-items {
+    position: absolute;
+    right: 0;
+    display: none;
+}
+
+#nav-items > li {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 300;
+    color: #282828;
+    font-family: SFUITextLight, Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    list-style-type: none;
+}
+
+h1 {
+    color: #282828;
+    font-family: SFUITextMedium, Arial, Helvetica, sans-serif;
+    font-size: 38px;
+    font-weight: 500;
+}
+
+#sub-header {
+    color: #afafaf;
+    font-family: SFUITextLight, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+#line {
+    width: 98px;
+    border-top: solid 4px #f77979;
+    margin-bottom: 2rem;
+    overflow: auto;
+}
+
+.gray-background {
+    background: #f7f7f7;
+}
+
+#header-2 {
+    color: #282828;
+    font-size: 28px;
+    font-weight: 500;
+    font-family: SFUITextMedium, Arial, Helvetica, sans-serif;
+    margin-top: 2rem;
+    margin-bottom: .5rem;
+}
+
+#sub-header-2 {
+    color: #afafaf;
+    font-family: SFUITextLight, Arial, Helvetica, sans-serif; 
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 0;
+}
+
+#signup-form {
+    padding-bottom: 2.5rem;
+}
+
+#signup-input {
+    color: #d1d1d1;
+    padding-left: .8rem;
+    padding-top: 0;
+    padding-bottom: 0; 
+    width: 50%;
+    height: 41px;
+    max-width: 276px;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: SFUITextLight, Arial, Helvetica, sans-serif; 
+    float: left;
+    border: solid 1px #d2d2d2;
+    border-top-left-radius: 5px;    
+}
+
+#signup-submit {
+    color: #fff;
+    background: #f77979;
+    width: 30%;
+    height: 43px;
+    max-width: 115px;
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    padding: .8rem;
+    border-bottom-right-radius: 5px;
+}
+
+#link-items {
+    text-align: center;
+    padding: 0;
+}
+
+#link-items > li {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 400;
+    color: #282828;
+    width: 30%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-family: SFUITextRegular, Arial, Helvetica, sans-serif;
+}
+
+#link-items > li > img {
+    width: 16px;
+    height: 16px;
+    margin-bottom: 1rem;
+    list-style-type: none;
+}
+
+.bittersweet-background {
+    background: #F57266;
+}
+
+#header-3 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 400;
+    font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    margin-bottom: 1rem;
+}
+
+#kickstarter-button {
+    color: white;
+    background: #F57266;
+    background-image: url('./images/k.png');
+    background-repeat: no-repeat;
+    background-position: 18px center;
+    background-size: 12px;
+    padding-left: 12px;
+    padding-right: 0;
+    width: 202px;
+    height: 40px;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: SFUITextRegular, Arial, Helvetica, sans-serif;
+    border: solid 1px #282828;
+    border-radius: 4px;
+}
+
+#kickstarter-button > img {
+    width: 12.08px;
+}
+
+#kick-summary {
+    color: #282828;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: SFUITextLight, Arial, Helvetica, sans-serif;     
+    margin-top: 1.5rem;
+    margin-bottom: 2.5626rem;
+}
+
+#header-4 {
+    color: #282828;
+    font-size: 24px;
+    text-align: center;
+    font-family: SFUITextMedium, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+#brand-items {
+    padding: 0;
+    text-align: center;
+    list-style-type: none;
+}
+
+#brand-items > li {
+    margin-bottom: 2rem;
+}
+
+#fast-company {
+    height: 22.5px;
+}
+
+#venture-beat {
+    height: 22.5px;
+}
+
+#guardian {
+    height: 31px;
+}
+
+#usa-today {
+    height: 30px;
+}
+
+#tech-crunch {
+    height: 30px;
+}
+
+#pastors {
+    height: 37.5px;
+}
+
+#christianity {
+    height: 45px;
+}
+
+#product-hunt {
+    height: 105px;
+    margin-top: -41.25px;
+    margin-bottom: -41.25px;
+}
+
+#cnet {
+    height: 44px;
+}
+
